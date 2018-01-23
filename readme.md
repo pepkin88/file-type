@@ -1,3 +1,11 @@
+# About this fork
+
+This is a practice of writing in LiveScript. It is also a more compact and, because of that, at least in my opnion, more readable version of the original code. Once familiarized with the checker function it becomes clear, where exactly the magic number is in a file and what it really means.
+
+The meaningful sequences of bytes are presented as simple strings. Moreover, the language features of LiveScript make the whole file more compact, so what is left is mostly list of file headers and some control patterns, the only information really needed while learning about the magic numbers of certain file types.
+
+###
+
 # file-type [![Build Status](https://travis-ci.org/sindresorhus/file-type.svg?branch=master)](https://travis-ci.org/sindresorhus/file-type)
 
 > Detect the file type of a Buffer/Uint8Array

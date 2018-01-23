@@ -13,10 +13,13 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"build": "lsc -c -o lib src",
+		"test": "ava",
+		"prepublish": "npm run build"
 	},
+	"main": "lib/index.js",
 	"files": [
-		"index.js"
+		"lib"
 	],
 	"keywords": [
 		"mime",
@@ -116,7 +119,7 @@
 	],
 	"devDependencies": {
 		"ava": "*",
-		"read-chunk": "^2.0.0",
-		"xo": "*"
+		"livescript": "^1.5.0",
+		"read-chunk": "^2.0.0"
 	}
 }

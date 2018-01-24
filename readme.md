@@ -4,7 +4,7 @@ This is a practice of writing in LiveScript. It is also a more compact and, beca
 
 The meaningful sequences of bytes are presented as simple strings. Moreover, the language features of LiveScript make the whole file more compact, so what is left is mostly list of file headers and some control patterns, the only information really needed while learning about the magic numbers of certain file types.
 
-###
+---
 
 # file-type [![Build Status](https://travis-ci.org/sindresorhus/file-type.svg?branch=master)](https://travis-ci.org/sindresorhus/file-type)
 
